@@ -35,6 +35,8 @@
 				<string>underline</string>
 				<key>tagsOptions</key>
 				<string>stippled_underline</string>
+				<key>invisibles</key>
+				<string>#4B4E55</string>
 			</dict>
 		</dict>
 		<!-- comment -->
@@ -91,7 +93,7 @@
 				<string>#222222</string>
 			</dict>
 		</dict>
-		
+
 		<!-- invalid -->
 		<dict>
 			<key>scope</key>
