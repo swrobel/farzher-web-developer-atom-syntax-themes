@@ -393,8 +393,7 @@
 			<!-- all (php, asp, ruby, python, perl) -->
 			<dict>
 				<key>scope</key>
-				<string>source.php, source.asp, source.ruby, source.python, source.perl, punctuation.whitespace
-				</string>
+				<string>source.php, source.asp, source.ruby, source.python, source.perl, punctuation.whitespace</string>
 				<key>settings</key>
 				<dict>
 					<key>background</key>
@@ -432,132 +431,6 @@
 				<dict>
 					<key>background</key>
 					<string>#1c221c</string>
-				</dict>
-			</dict>
-
-			<!-- GitGutter -->
-			<dict>
-				<key>scope</key>
-				<string>markup.inserted.git_gutter</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#6cc644</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>scope</key>
-				<string>markup.deleted.git_gutter</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#ff7Dbf</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>scope</key>
-				<string>markup.changed.git_gutter</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#ff984c</string>
-				</dict>
-			</dict>
-
-			<!-- Git Diff -->
-			<!-- Insert -->
-			<dict>
-				<key>scope</key>
-				<string>markup.inserted</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#12ffa9a0</string>
-					<key>background</key>
-					<string>#22ffa912</string>
-				</dict>
-			</dict>
-			<!-- Delete -->
-			<dict>
-				<key>scope</key>
-				<string>markup.deleted</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#ff4377a0</string>
-					<key>background</key>
-					<string>#ff339916</string>
-				</dict>
-			</dict>
-			<!-- Changed -->
-			<dict>
-				<key>scope</key>
-				<string>markup.changed, meta.diff.range</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#a1784c</string>
-					<key>background</key>
-					<string>#a1784c1b</string>
-				</dict>
-			</dict>
-			<!-- File -->
-			<dict>
-				<key>scope</key>
-				<string>meta.diff.header</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#a1784c</string>
-					<key>background</key>
-					<string>#a1784c1b</string>
-				</dict>
-			</dict>
-			<!-- Command -->
-			<dict>
-				<key>scope</key>
-				<string>source.git-diff.command</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#bB7Dbf</string>
-					<key>background</key>
-					<string>#9B9FfD10</string>
-				</dict>
-			</dict>
-
-			<!-- SublimeLinter -->
-			<dict>
-				<key>name</key>
-				<string>SublimeLinter Error</string>
-				<key>scope</key>
-				<string>sublimelinter.mark.error</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#D02000</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>SublimeLinter Warning</string>
-				<key>scope</key>
-				<string>sublimelinter.mark.warning</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#DDB700</string>
-				</dict>
-			</dict>
-			<dict>
-				<key>name</key>
-				<string>SublimeLinter Gutter Mark</string>
-				<key>scope</key>
-				<string>sublimelinter.gutter-mark</string>
-				<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#FFFFFF</string>
 				</dict>
 			</dict>
 		</array>
