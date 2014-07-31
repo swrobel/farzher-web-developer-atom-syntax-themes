@@ -1,0 +1,202 @@
+@import "syntax-variables";
+
+.editor {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+}
+
+.editor .gutter {
+  background-color: @syntax-gutter-background-color;
+  color: @syntax-gutter-text-color;
+}
+
+.editor .gutter .line-number.cursor-line {
+  background-color: @syntax-gutter-background-color-selected;
+  color: @syntax-gutter-text-color-selected;
+}
+
+.editor .gutter .line-number.cursor-line-no-selection {
+  color: @syntax-gutter-text-color-selected;
+}
+
+.editor .wrap-guide {
+  color: @syntax-wrap-guide-color;
+}
+
+.editor .indent-guide {
+  color: @syntax-indent-guide-color;
+}
+
+.editor .invisible-character {
+  color: @syntax-invisible-character-color;
+}
+
+.editor .search-results .marker .region {
+  background-color: transparent;
+  border: @syntax-result-marker-color;
+}
+
+.editor .search-results .marker.current-result .region {
+  border: @syntax-result-marker-color-selected;
+}
+
+.editor.is-focused .cursor {
+  border-color: @syntax-cursor-color;
+}
+
+.editor.is-focused .selection .region {
+  background-color: @syntax-selection-color;
+}
+
+.editor.is-focused .line-number.cursor-line-no-selection, .editor.is-focused .line.cursor-line {
+  background-color: #282828;
+}
+
+.comment {
+  font-weight: bold;
+  font-style: italic;
+  color: rgba(161, 120, 76, 0.93);
+  background-color: rgba(161, 120, 76, 0.13);
+}
+
+.string {
+  color: rgba(170, 175, 235, 0.93);
+  background-color: rgba(170, 175, 219, 0.04);
+}
+
+.constant.numeric {
+  color: rgba(143, 194, 187, 0.73);
+  background-color: rgba(143, 194, 187, 0.06);
+}
+
+.meta.use, .support.other.namespace {
+  color: rgba(239, 106, 167, 0.87);
+  background-color: rgba(239, 106, 167, 0.06);
+}
+
+.constant.language {
+  color: #bDbe82;
+  background-color: rgba(189, 190, 130, 0.06);
+}
+
+.storage {
+  color: rgba(139, 108, 207, 1);
+  background-color: rgba(139, 93, 223, 0.07);
+}
+
+.entity.name.function {
+  color: rgba(18, 255, 169, 0.97);
+  background-color: rgba(34, 255, 169, 0.07);
+}
+
+.meta.function-call {
+  color: rgba(203, 175, 108, 1);
+  background-color: rgba(203, 175, 108, 0.07);
+}
+
+.support.function {
+  color: #ADAeB2;
+  background-color: rgba(189, 190, 130, 0.06);
+}
+
+.entity.name.function.misc {
+  color: #E3E4A9;
+  background-color: rgba(227, 228, 169, 0.04);
+}
+
+.entity.name.function.predicate {
+  color: #A5DF93;
+  background-color: rgba(165, 223, 147, 0.04);
+}
+
+.entity.name.function.io {
+  color: #DFB3AC;
+  background-color: rgba(223, 179, 172, 0.04);
+}
+
+.variable.other.external-symbol {
+  color: #BBDFDD;
+  background-color: rgba(187, 223, 221, 0.04);
+}
+
+.variable.language, .variable.other {
+  color: #3aafff;
+  background-color: rgba(58, 175, 255, 0.06);
+}
+
+.variable.parameter, .variable.assignment {
+  color: #3aafff;
+  background-color: rgba(58, 175, 255, 0.06);
+}
+
+.keyword.control {
+  color: rgba(203, 95, 93, 0.94);
+  background-color: rgba(203, 95, 93, 0.06);
+}
+
+.keyword.operator {
+  color: #bB7Dbf;
+  background-color: rgba(155, 159, 253, 0.06);
+}
+
+.keyword {
+  color: #bB7Dbf;
+  background-color: rgba(155, 159, 253, 0.06);
+}
+
+.entity.name.structure {
+  color: rgba(34, 255, 153, 0.87);
+  background-color: rgba(185, 152, 223, 0.04);
+}
+
+.entity.name.type {
+  color: rgba(175, 119, 169, 0.93);
+  background-color: rgba(175, 119, 169, 0.05);
+}
+
+.meta.class, .entity.name.class, .entity.name.type.class {
+  color: #ff4377;
+  background-color: rgba(255, 51, 153, 0.09);
+}
+
+.support.class {
+  color: rgba(239, 106, 167, 0.87);
+  background-color: rgba(239, 106, 167, 0.06);
+}
+
+.invalid {
+  color: #DFDFD5;
+  background-color: #CC1B27;
+}
+
+.string .source {
+  font-style: italic;
+  color: rgba(51, 153, 255, 1);
+  background-color: rgba(0, 153, 255, 0.04);
+}
+
+.entity.name.tag {
+  color: #49a6d2;
+  background-color: rgba(73, 166, 210, 0.07);
+}
+
+.entity.other.attribute-name {
+  color: rgba(73, 134, 194, 0.8);
+  background-color: rgba(73, 134, 194, 0.04);
+}
+
+.source.php, .source.asp, .source.ruby, .source.python, .source.perl, .punctuation.whitespace {
+  background-color: #1c1c1c;
+}
+
+.text {
+  background-color: #1c1c22;
+}
+
+.source.css {
+  background-color: #22221c;
+}
+
+.source.js {
+  background-color: #1c221c;
+}

@@ -1,0 +1,96 @@
+@import "syntax-variables";
+
+.editor {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+}
+
+.editor .gutter {
+  background-color: @syntax-gutter-background-color;
+  color: @syntax-gutter-text-color;
+}
+
+.editor .gutter .line-number.cursor-line {
+  background-color: @syntax-gutter-background-color-selected;
+  color: @syntax-gutter-text-color-selected;
+}
+
+.editor .gutter .line-number.cursor-line-no-selection {
+  color: @syntax-gutter-text-color-selected;
+}
+
+.editor .wrap-guide {
+  color: @syntax-wrap-guide-color;
+}
+
+.editor .indent-guide {
+  color: @syntax-indent-guide-color;
+}
+
+.editor .invisible-character {
+  color: @syntax-invisible-character-color;
+}
+
+.editor .search-results .marker .region {
+  background-color: transparent;
+  border: @syntax-result-marker-color;
+}
+
+.editor .search-results .marker.current-result .region {
+  border: @syntax-result-marker-color-selected;
+}
+
+.editor.is-focused .cursor {
+  border-color: @syntax-cursor-color;
+}
+
+.editor.is-focused .selection .region {
+  background-color: @syntax-selection-color;
+}
+
+.editor.is-focused .line-number.cursor-line-no-selection, .editor.is-focused .line.cursor-line {
+  background-color: #444444;
+}
+
+.comment {
+  color: #999999;
+}
+
+.string {
+  color: #00ff80;
+}
+
+.constant.numeric, .constant.language, .constant.character, .constant.other, .keyword, .punctuation.section.embedded {
+  color: #ff8080;
+}
+
+.storage, .variable, .entity.other.attribute-name {
+  color: #f38630;
+  background-color: #222222;
+}
+
+.meta.class, .meta.function, .meta.function-call, .support.class, .support.function, .entity.name.tag {
+  color: #ffff80;
+  background-color: #222222;
+}
+
+.invalid {
+  color: #F8F8F0;
+  background-color: #00A8C6;
+}
+
+.source.php, .source.asp, .source.ruby, .source.python, .source.perl, .punctuation.whitespace {
+  background-color: #333333;
+}
+
+.text {
+  background-color: #33333b;
+}
+
+.source.css {
+  background-color: #3b3b33;
+}
+
+.source.js {
+  background-color: #333b33;
+}
